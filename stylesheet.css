@@ -19,6 +19,40 @@ a {
 }
 
 /* ここからCSSを書いていきましょう */
+
+header {
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 65px;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+}
+
+.header-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.left-logo {
+  float: left;
+  width: 124px;
+  padding: 20px 0;
+}
+
+.right-logo {
+  line-height: 65px;
+  float: right;
+  padding: 0 25px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.right-logo:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s;
+}
+
 main {
   text-align: center;
   padding: 180px 0 100px 0;
@@ -78,4 +112,95 @@ main {
 
 .twitter {
   background-color: #55acee;
+}
+
+.lesson {
+  height: 580px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.lesson-container {
+  padding: 0 15px;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.lesson-head {
+  font-weight: normal;
+  color: #5f5d60;
+  padding: 80px 0 50px 0;
+}
+
+.lesson-type {
+  position: relative;
+  float: left;
+  width: 25%;
+}
+
+.lesson-name {
+  color: white;
+  position: absolute;
+  top: 90px;
+  width: 100%;
+}
+
+.lesson-coment {
+  display: inline-block;
+  font-size: 13px;
+  color: #b3aeb5;
+  width: 80%;
+  padding-top: 15px;
+}
+
+.message-container {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.message-container h2{
+  color: #5f5d60;
+  font-weight: normal;
+}
+
+.message-container h3{
+  color: #5f5d60;
+}
+
+.message-btn {
+  display: inline-block;
+  background-color: #5dca88;
+  color: white;
+  padding: 15px 40px;
+  margin-top: 50px;
+  box-shadow: 0 7px #1a7940;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+.message-btn:hover {
+  opacity: 1;
+}
+
+.message-btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.footer-container {
+  border-top: 1px solid #eee;
+  padding: 20px 0;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  width: 124px
+}
+
+.footer-txt {
+  font-size: 12px;
+  color: #b3aeb5;
+  
 }
